@@ -2,10 +2,10 @@
   "name": "gatsby-transformer-fountain",
   "description": "Gatsby transformer plugin for fountain",
   "version": "0.0.1",
-  "author": "Sarang Joshi <sarangj@msn.com> (https://sarangjo.github.io)",
+  "author": "Sarang Joshi <sarangj@msn.com>",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "fountain-js": "^0.0.1"
+    "fountain.ts": "^0.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -22,7 +22,6 @@
   "peerDependencies": {
     "gatsby": "^2.0.15"
   },
-  "repository": "https://github.com/sarangjo/gatsby-transformer-fountain",
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production yarn run build",
