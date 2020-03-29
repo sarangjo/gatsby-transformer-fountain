@@ -26,5 +26,10 @@
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production yarn run build",
     "watch": "babel -w src --out-dir . --ignore **/__tests__"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarangjo/gatsby-transformer-fountain.git"
+  },
+  "homepage": "https://github.com/sarangjo/gatsby-transformer-fountain"
 }
