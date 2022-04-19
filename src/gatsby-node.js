@@ -1,4 +1,4 @@
-const { Fountain } = require(`fountain.ts`);
+const { Fountain } = require(`fountain-js`);
 
 async function onCreateNode({
   node,
